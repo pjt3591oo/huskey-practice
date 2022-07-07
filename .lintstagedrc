@@ -1,0 +1,8 @@
+{
+  "*.{js,ts}": [
+    "eslint --cache --fix",
+    "eslint --max-warnings 10",
+    "prettier --write",
+    "jest --bail --findRelatedTests"
+  ]
+}
